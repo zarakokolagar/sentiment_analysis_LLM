@@ -6,9 +6,9 @@
 
 1. Design and refine prompts to achieve maximum accuracy in sentiment analysis
 2. Implement local inference for SLMs using Python
-3. Compare the performance and efficiency of two SLMs of different sizes
+3. Compare the performance and efficiency of two SLMs of two sizes
 4. Analyze results and draw meaningful insights
-5. Document the process and findings effectively
+
 
 
 ### Data
@@ -54,18 +54,6 @@ The project is organized as follows:
 
 6. Qwen_sentiment_analysis.ipynb: The Jupyter notebook containing the analysis and model-building code.  
 
-
-### Installation
-
-To run this project, follow the steps below:
-
-1. Clone the Project: Download the project as a zip file or clone it.
-
-2. Set Up the Environment: Install the required Python packages using pip:
-
-```python
-pip install -r requirements.txt
-```
 
 ### Usage
 
