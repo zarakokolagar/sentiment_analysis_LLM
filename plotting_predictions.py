@@ -81,7 +81,7 @@ def plot_accuracies(accuracies, plot_dir):
         plt.close()
 
 
-# Step 4: Execute the process
+
 directory_path = PRED_DIR
 plots_directory = PLOT_DIR
 accuracies_data = process_files_in_directory(directory_path)
