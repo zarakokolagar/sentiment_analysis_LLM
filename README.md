@@ -116,7 +116,7 @@ deactivate
 
 **Note:**
 
-Alternatively, you could run the notebook on [Colab Notebook](https://colab.research.google.com/drive/1UWiUKyRz0HgGtB_frLV6Kl0MMb7J25Kg#scrollTo=ihomXxB4Svsk&uniqifier=1)
+Alternatively, you could run the notebook on [Colab Notebook](https://colab.research.google.com/drive/1UWiUKyRz0HgGtB_frLV6Kl0MMb7J25Kg?usp=sharing)
 If you are running the code from Google colab, all required libraries and data handling is included in the colab code.
 
 
