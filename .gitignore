@@ -1,0 +1,37 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+.ipynb_checkpoints/Qwen_sentiment_analysis.ipynb
+
+# Ignore virtual environment directories
+venv/
+env/
+*.egg-info/
+
+# Ignore environment configuration files
+*.env
+*.ini
+*.yaml
+
+# Ignore local configuration files
+*.local
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook output files
+*.nbconvert.ipynb
+
+# Ignore other IDE or editor-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace

@@ -1,0 +1,125 @@
+Temperature 0, Run 1:
+  Classification Report for Qwen 2.5 - 0.5 B:
+              precision    recall  f1-score
+negative       0.666667  0.800000  0.727273
+positive       0.833333  0.714286  0.769231
+accuracy       0.750000  0.750000  0.750000
+macro avg      0.750000  0.757143  0.748252
+weighted avg   0.763889  0.750000  0.751748
+  Accuracy: 0.7500
+------------------------------
+Temperature 0, Run 2:
+  Classification Report for Qwen 2.5 - 0.5 B:
+              precision    recall  f1-score
+negative       0.666667  0.800000  0.727273
+positive       0.833333  0.714286  0.769231
+accuracy       0.750000  0.750000  0.750000
+macro avg      0.750000  0.757143  0.748252
+weighted avg   0.763889  0.750000  0.751748
+  Accuracy: 0.7500
+------------------------------
+Temperature 0, Run 3:
+  Classification Report for Qwen 2.5 - 0.5 B:
+              precision    recall  f1-score
+negative       0.666667  0.800000  0.727273
+positive       0.833333  0.714286  0.769231
+accuracy       0.750000  0.750000  0.750000
+macro avg      0.750000  0.757143  0.748252
+weighted avg   0.763889  0.750000  0.751748
+  Accuracy: 0.7500
+------------------------------
+Temperature 1, Run 1:
+  Classification Report for Qwen 2.5 - 0.5 B:
+              precision    recall  f1-score
+negative       0.500000  0.800000  0.615385
+positive       0.750000  0.428571  0.545455
+accuracy       0.583333  0.583333  0.583333
+macro avg      0.625000  0.614286  0.580420
+weighted avg   0.645833  0.583333  0.574592
+  Accuracy: 0.5833
+------------------------------
+Temperature 1, Run 2:
+  Classification Report for Qwen 2.5 - 0.5 B:
+              precision    recall  f1-score
+negative       0.666667  0.800000  0.727273
+positive       0.833333  0.714286  0.769231
+accuracy       0.750000  0.750000  0.750000
+macro avg      0.750000  0.757143  0.748252
+weighted avg   0.763889  0.750000  0.751748
+  Accuracy: 0.7500
+------------------------------
+Temperature 1, Run 3:
+  Classification Report for Qwen 2.5 - 0.5 B:
+              precision    recall  f1-score
+negative       0.800000  0.800000  0.800000
+positive       0.857143  0.857143  0.857143
+accuracy       0.833333  0.833333  0.833333
+macro avg      0.828571  0.828571  0.828571
+weighted avg   0.833333  0.833333  0.833333
+  Accuracy: 0.8333
+------------------------------
+Temperature 2, Run 1:
+  Classification Report for Qwen 2.5 - 0.5 B:
+              precision    recall  f1-score
+negative       0.714286  1.000000  0.833333
+positive       1.000000  0.714286  0.833333
+accuracy       0.833333  0.833333  0.833333
+macro avg      0.857143  0.857143  0.833333
+weighted avg   0.880952  0.833333  0.833333
+  Accuracy: 0.8333
+------------------------------
+Temperature 2, Run 2:
+  Classification Report for Qwen 2.5 - 0.5 B:
+              precision    recall  f1-score
+negative       0.800000  0.800000  0.800000
+positive       0.857143  0.857143  0.857143
+accuracy       0.833333  0.833333  0.833333
+macro avg      0.828571  0.828571  0.828571
+weighted avg   0.833333  0.833333  0.833333
+  Accuracy: 0.8333
+------------------------------
+Temperature 2, Run 3:
+  Classification Report for Qwen 2.5 - 0.5 B:
+              precision    recall  f1-score
+negative       0.714286  1.000000  0.833333
+positive       1.000000  0.714286  0.833333
+accuracy       0.833333  0.833333  0.833333
+macro avg      0.857143  0.857143  0.833333
+weighted avg   0.880952  0.833333  0.833333
+  Accuracy: 0.8333
+------------------------------
+Average metrics for Temperature 0:
+  Precision (Negative): 0.6667
+  Recall (Negative): 0.8000
+  F1 (Negative): 0.7273
+  Precision (Positive): 0.8333
+  Recall (Positive): 0.7143
+  F1 (Positive): 0.7692
+  Average Accuracy: 0.7500
+==================================================
+Average metrics for Temperature 1:
+  Precision (Negative): 0.6556
+  Recall (Negative): 0.8000
+  F1 (Negative): 0.7142
+  Precision (Positive): 0.8135
+  Recall (Positive): 0.6667
+  F1 (Positive): 0.7239
+  Average Accuracy: 0.7222
+==================================================
+Average metrics for Temperature 2:
+  Precision (Negative): 0.7429
+  Recall (Negative): 0.9333
+  F1 (Negative): 0.8222
+  Precision (Positive): 0.9524
+  Recall (Positive): 0.7619
+  F1 (Positive): 0.8413
+  Average Accuracy: 0.8333
+==================================================
+Classification Report for majority voting:
+              precision  recall  f1-score
+negative            1.0     1.0       1.0
+positive            1.0     1.0       1.0
+accuracy            1.0     1.0       1.0
+macro avg           1.0     1.0       1.0
+weighted avg        1.0     1.0       1.0
+Accuracy for majority voting: 1.0000
