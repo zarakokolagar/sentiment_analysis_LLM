@@ -121,6 +121,27 @@ If you are running the code from Google colab, all required libraries and data h
 
 
 
-## License 
+#### Acknowledgement of Limitations:
 
-Not required
+1. **Sample Size:** Due to computational constraints, I was only able to test the models on 1000 samples (500 per class). While this provides an initial indication of model performance, predictions may fluctuate when applied to larger datasets. I addressed this to some extent by using a more diverse data sampling strategy to ensure broader coverage of examples.
+
+
+2. **Execution Environment:** The model inference was conducted on Google Colab, which is linked in my GitHub repository via the README.md file. The code is available in both the README and the Jupyter notebook in the repository. Colab’s limitations, including personal account restrictions and potential connection issues, led me to save the prediction results after each run to ensure stability. Plotting is also based on these saved predictions, as connection issues in Colab could cause cell outputs to be lost. Please refer to the plots directory for the visualized results.
+
+
+3. **Parameter Tuning:** I focused exclusively on experimenting with different temperature settings and did not explore the influence of parameters like top-p and top-k. This decision was made for several reasons:
+
+    a. **Simplicity and Clarity:** By controlling only the temperature, I ensured that the results are easier to interpret. Introducing multiple varying parameters could make it harder to attribute performance changes to any one factor.
+    
+    b. **Task Relevance:** The temperature parameter directly impacts the randomness and creativity of model outputs, which is closely related to sentiment prediction tasks. In contrast, top-p and top-k are more suited for tasks requiring diverse content generation.
+    
+    c. **Resource Efficiency:** Given the focus on smaller language models, reducing the parameter space helped minimize the computational load and experimentation time.
+    
+    d.**Comparability:** Keeping the scope to temperature adjustments allowed for a clearer comparison between models of different sizes without adding complexity from other variables.
+    
+    
+4. **Prompting Approach:** Since the step 4 prompting approach yielded stable and satisfactory results for both models, I opted to stop further prompt experimentation. However, I acknowledge that additional prompting techniques could be explored to ensure robustness in real-world applications. Further tests such as cross-validation across different data domains, error analysis of edge cases, and A/B testing with alternative prompt designs would be necessary to refine the model's reliability for production-level sentiment analysis.
+
+
+
+
